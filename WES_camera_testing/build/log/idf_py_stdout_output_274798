@@ -1,0 +1,17 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cd /home/jack300/Documents/WES_2025_Hackathon/WES_camera_testing/build/bootloader/esp-idf/esptool_py && /home/jack300/.espressif/python_env/idf5.0_py3.12_env/bin/python /home/jack300/esp/v5.0.2/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/jack300/Documents/WES_2025_Hackathon/WES_camera_testing/build/bootloader/bootloader.bin
+Bootloader binary size 0x6710 bytes. 0x8f0 bytes (8%) free.
+[2/9] No install step for 'bootloader'
+[3/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/initialize.c.obj
+[4/9] Linking C static library esp-idf/main/libmain.a
+[5/9] Completed 'bootloader'
+[6/9] Generating ld/sections.ld
+[7/9] Linking CXX executable WES_camera_testing.elf
+[8/9] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/jack300/Documents/WES_2025_Hackathon/WES_camera_testing/build/WES_camera_testing.bin
+[9/9] cd /home/jack300/Documents/WES_2025_Hackathon/WES_camera_testing/build/esp-idf/esptool_py && /home/jack300/.espressif/python_env/idf5.0_py3.12_env/bin/python /home/jack300/esp/v5.0.2/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/jack300/Documents/WES_2025_Hackathon/WES_camera_testing/build/partition_table/partition-table.bin /home/jack300/Documents/WES_2025_Hackathon/WES_camera_testing/build/WES_camera_testing.bin
+WES_camera_testing.bin binary size 0x43050 bytes. Smallest app partition is 0x100000 bytes. 0xbcfb0 bytes (74%) free.

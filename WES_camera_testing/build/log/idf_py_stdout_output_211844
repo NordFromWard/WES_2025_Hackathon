@@ -1,0 +1,48 @@
+-- Found Git: /usr/bin/git (found version "2.49.0") 
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/jack300/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/jack300/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/jack300/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32
+NOTICE: Dependencies lock doesn't exist, solving dependencies.
+..NOTICE: Updating lock file at /home/jack300/Documents/WES_2025_Hackathon/WES_camera_testing/dependencies.lock
+NOTICE: Processing 2 dependencies:
+NOTICE: [1/2] espressif/esp32-camera (2.0.15)
+NOTICE: [2/2] idf (5.0.2)
+-- Project sdkconfig file /home/jack300/Documents/WES_2025_Hackathon/WES_camera_testing/sdkconfig
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /home/jack300/.espressif/python_env/idf5.0_py3.12_env/bin/python (found version "3.12.3") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "WES_camera_testing" version: 69be5d2-dirty
+-- Adding linker script /home/jack300/Documents/WES_2025_Hackathon/WES_camera_testing/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/jack300/esp/v5.0.2/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/jack300/esp/v5.0.2/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/jack300/esp/v5.0.2/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/jack300/esp/v5.0.2/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/jack300/esp/v5.0.2/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/jack300/esp/v5.0.2/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/jack300/esp/v5.0.2/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/jack300/esp/v5.0.2/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_netif esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump espressif__esp32-camera esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/jack300/esp/v5.0.2/esp-idf/components/app_trace /home/jack300/esp/v5.0.2/esp-idf/components/app_update /home/jack300/esp/v5.0.2/esp-idf/components/bootloader /home/jack300/esp/v5.0.2/esp-idf/components/bootloader_support /home/jack300/esp/v5.0.2/esp-idf/components/bt /home/jack300/esp/v5.0.2/esp-idf/components/cmock /home/jack300/esp/v5.0.2/esp-idf/components/console /home/jack300/esp/v5.0.2/esp-idf/components/cxx /home/jack300/esp/v5.0.2/esp-idf/components/driver /home/jack300/esp/v5.0.2/esp-idf/components/efuse /home/jack300/esp/v5.0.2/esp-idf/components/esp-tls /home/jack300/esp/v5.0.2/esp-idf/components/esp_adc /home/jack300/esp/v5.0.2/esp-idf/components/esp_app_format /home/jack300/esp/v5.0.2/esp-idf/components/esp_common /home/jack300/esp/v5.0.2/esp-idf/components/esp_eth /home/jack300/esp/v5.0.2/esp-idf/components/esp_event /home/jack300/esp/v5.0.2/esp-idf/components/esp_gdbstub /home/jack300/esp/v5.0.2/esp-idf/components/esp_hid /home/jack300/esp/v5.0.2/esp-idf/components/esp_http_client /home/jack300/esp/v5.0.2/esp-idf/components/esp_http_server /home/jack300/esp/v5.0.2/esp-idf/components/esp_https_ota /home/jack300/esp/v5.0.2/esp-idf/components/esp_https_server /home/jack300/esp/v5.0.2/esp-idf/components/esp_hw_support /home/jack300/esp/v5.0.2/esp-idf/components/esp_lcd /home/jack300/esp/v5.0.2/esp-idf/components/esp_local_ctrl /home/jack300/esp/v5.0.2/esp-idf/components/esp_netif /home/jack300/esp/v5.0.2/esp-idf/components/esp_partition /home/jack300/esp/v5.0.2/esp-idf/components/esp_phy /home/jack300/esp/v5.0.2/esp-idf/components/esp_pm /home/jack300/esp/v5.0.2/esp-idf/components/esp_psram /home/jack300/esp/v5.0.2/esp-idf/components/esp_ringbuf /home/jack300/esp/v5.0.2/esp-idf/components/esp_rom /home/jack300/esp/v5.0.2/esp-idf/components/esp_system /home/jack300/esp/v5.0.2/esp-idf/components/esp_timer /home/jack300/esp/v5.0.2/esp-idf/components/esp_wifi /home/jack300/esp/v5.0.2/esp-idf/components/espcoredump /home/jack300/Documents/WES_2025_Hackathon/WES_camera_testing/managed_components/espressif__esp32-camera /home/jack300/esp/v5.0.2/esp-idf/components/esptool_py /home/jack300/esp/v5.0.2/esp-idf/components/fatfs /home/jack300/esp/v5.0.2/esp-idf/components/freertos /home/jack300/esp/v5.0.2/esp-idf/components/hal /home/jack300/esp/v5.0.2/esp-idf/components/heap /home/jack300/esp/v5.0.2/esp-idf/components/http_parser /home/jack300/esp/v5.0.2/esp-idf/components/idf_test /home/jack300/esp/v5.0.2/esp-idf/components/ieee802154 /home/jack300/esp/v5.0.2/esp-idf/components/json /home/jack300/esp/v5.0.2/esp-idf/components/log /home/jack300/esp/v5.0.2/esp-idf/components/lwip /home/jack300/Documents/WES_2025_Hackathon/WES_camera_testing/main /home/jack300/esp/v5.0.2/esp-idf/components/mbedtls /home/jack300/esp/v5.0.2/esp-idf/components/mqtt /home/jack300/esp/v5.0.2/esp-idf/components/newlib /home/jack300/esp/v5.0.2/esp-idf/components/nvs_flash /home/jack300/esp/v5.0.2/esp-idf/components/openthread /home/jack300/esp/v5.0.2/esp-idf/components/partition_table /home/jack300/esp/v5.0.2/esp-idf/components/perfmon /home/jack300/esp/v5.0.2/esp-idf/components/protobuf-c /home/jack300/esp/v5.0.2/esp-idf/components/protocomm /home/jack300/esp/v5.0.2/esp-idf/components/pthread /home/jack300/esp/v5.0.2/esp-idf/components/sdmmc /home/jack300/esp/v5.0.2/esp-idf/components/soc /home/jack300/esp/v5.0.2/esp-idf/components/spi_flash /home/jack300/esp/v5.0.2/esp-idf/components/spiffs /home/jack300/esp/v5.0.2/esp-idf/components/tcp_transport /home/jack300/esp/v5.0.2/esp-idf/components/ulp /home/jack300/esp/v5.0.2/esp-idf/components/unity /home/jack300/esp/v5.0.2/esp-idf/components/usb /home/jack300/esp/v5.0.2/esp-idf/components/vfs /home/jack300/esp/v5.0.2/esp-idf/components/wear_levelling /home/jack300/esp/v5.0.2/esp-idf/components/wifi_provisioning /home/jack300/esp/v5.0.2/esp-idf/components/wpa_supplicant /home/jack300/esp/v5.0.2/esp-idf/components/xtensa
+-- Configuring done (4.6s)
+-- Generating done (0.3s)
+-- Build files have been written to: /home/jack300/Documents/WES_2025_Hackathon/WES_camera_testing/build

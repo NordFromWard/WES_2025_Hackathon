@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/jack300/Documents/WES_2025_Hackathon/WES_camera_testing/build/CMakeFiles/bootloader
+/home/jack300/Documents/WES_2025_Hackathon/WES_camera_testing/build/CMakeFiles/bootloader.rule
+/home/jack300/Documents/WES_2025_Hackathon/WES_camera_testing/build/CMakeFiles/bootloader-complete.rule
+/home/jack300/Documents/WES_2025_Hackathon/WES_camera_testing/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/jack300/Documents/WES_2025_Hackathon/WES_camera_testing/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/jack300/Documents/WES_2025_Hackathon/WES_camera_testing/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/jack300/Documents/WES_2025_Hackathon/WES_camera_testing/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/jack300/Documents/WES_2025_Hackathon/WES_camera_testing/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/jack300/Documents/WES_2025_Hackathon/WES_camera_testing/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/jack300/Documents/WES_2025_Hackathon/WES_camera_testing/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

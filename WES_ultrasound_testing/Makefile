@@ -3,6 +3,6 @@
 # project subdirectory.
 #
 
-PROJECT_NAME := WES_Veki
+PROJECT_NAME := WES_ultrasound_testing
 
 include $(IDF_PATH)/make/project.mk
